@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 /*
  * EXPERIENCE — centred stacked panel composition.
  *
@@ -274,7 +275,7 @@ export default function Experience() {
                       {/* not lazy: five marks totalling ~17KB, and lazy
                           loading never triggers reliably inside a
                           3D-transformed panel — it just risks pop-in */}
-                      <img src={r.logo.src} alt={`${r.company} logo`} />
+                      <img src={asset(r.logo.src)} alt={`${r.company} logo`} />
                     </span>
                   ) : (
                     /* no official file supplied yet — typographic stand-in */

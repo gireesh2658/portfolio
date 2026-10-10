@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 /* Client half of the case study. The route stays a server component so
    generateStaticParams / generateMetadata keep working; everything the
    reader sees lives here, where the language context is available.
@@ -106,7 +107,7 @@ export default function CaseView({ slug }: { slug: string }) {
               {project.cover.src && project.cover.variant === "photo" ? (
                 <img
                   className={styles.coverPhoto}
-                  src={project.cover.src}
+                  src={asset(project.cover.src)}
                   alt={project.coverLabel}
                   style={
                     project.cover.focus ? { objectPosition: project.cover.focus } : undefined
@@ -115,7 +116,7 @@ export default function CaseView({ slug }: { slug: string }) {
               ) : project.cover.src ? (
                 <img
                   className={styles.coverBrand}
-                  src={project.cover.src}
+                  src={asset(project.cover.src)}
                   alt={project.coverLabel}
                   style={{ aspectRatio: project.cover.aspect ?? 1 }}
                 />

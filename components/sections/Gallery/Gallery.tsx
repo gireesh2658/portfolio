@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 /*
  * THE PEOPLE BEHIND THE WORK — DriftWall.
  *
@@ -216,7 +217,7 @@ export default function Gallery() {
                     aria-hidden={i >= col.length}
                   >
                     <img
-                      src={f.src}
+                      src={asset(f.src)}
                       alt={i < col.length ? t("gallery.alt") : ""}
                       loading={ci < 3 && i < 2 ? "eager" : "lazy"}
                       decoding="async"

@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 /*
  * Featured Work — the curved project track.
  * Desktop: the section pins and vertical scroll scrubs the cards along a
@@ -131,7 +132,7 @@ export default function Work() {
                     /* his own capture of the built site — full-bleed */
                     <img
                       className={styles.coverPhoto}
-                      src={p.cover.src}
+                      src={asset(p.cover.src)}
                       alt={p.coverLabel}
                       style={p.cover.focus ? { objectPosition: p.cover.focus } : undefined}
                       loading="lazy"
@@ -140,7 +141,7 @@ export default function Work() {
                     /* verified brand mark, sized by its true aspect ratio */
                     <img
                       className={styles.coverBrand}
-                      src={p.cover.src}
+                      src={asset(p.cover.src)}
                       alt={p.coverLabel}
                       style={{ aspectRatio: p.cover.aspect ?? 1 }}
                       loading="lazy"

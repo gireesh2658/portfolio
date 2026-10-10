@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 /*
  * CREDENTIALS — pitch-deck cascade, replicated from the supplied reference.
  *
@@ -242,7 +243,7 @@ export default function Certifications() {
                   {c.logo ? (
                     <span className={styles.logoPlate}>
                       <img
-                        src={c.logo.src}
+                        src={asset(c.logo.src)}
                         alt={c.issuer ?? ""}
                         style={{ aspectRatio: c.logo.aspect }}
                       />

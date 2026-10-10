@@ -17,3 +17,27 @@ export const PERSON = {
     "https://leetcode.com/u/gireesh2658/",
   ],
 };
+
+export const asset = (path: string) => {
+  if (!path) return "";
+  if (
+    path.startsWith("http") ||
+    path.startsWith("data:") ||
+    path.startsWith("blob:") ||
+    path.startsWith("mailto:") ||
+    path.startsWith("tel:")
+  ) {
+    return path;
+  }
+
+  const isProd = process.env.NODE_ENV === "production";
+  const base = isProd ? "/portfolio" : "";
+
+  if (base && path.startsWith(`${base}/`)) return path;
+
+  if (base) {
+    const safePath = path.startsWith("/") ? path : `/${path}`;
+    return `${base}${safePath}`;
+  }
+  return path;
+};

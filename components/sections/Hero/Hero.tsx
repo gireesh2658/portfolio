@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 import { useEffect, useRef } from "react";
 
 import { gsap, prefersReducedMotion, EASE } from "@/lib/gsap";
@@ -29,7 +30,7 @@ const PARTICLES = [
 function StatCard({ n, suffix, label, icon }: { n: number; suffix: string; label: string; icon: string }) {
   return (
     <div className={styles.statCard}>
-      <img className={styles.statIcon} src={icon} alt="" aria-hidden="true" />
+      <img className={styles.statIcon} src={asset(icon)} alt="" aria-hidden="true" />
       <div className={styles.statNum} data-count={n}>
         <span>0</span>
         <i>{suffix}</i>

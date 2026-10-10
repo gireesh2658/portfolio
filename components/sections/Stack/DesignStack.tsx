@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 /*
  * MY DESIGN STACK — full-viewport spiral orbit
  *
@@ -287,7 +288,7 @@ export default function DesignStack() {
               <span className={styles.face}>
                 <span className={styles.mark}>
                   {t.src ? (
-                    <img src={t.src} alt="" aria-hidden="true" />
+                    <img src={asset(t.src)} alt="" aria-hidden="true" />
                   ) : (
                     <span
                       className={styles.mono}

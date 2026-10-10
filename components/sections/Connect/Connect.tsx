@@ -1,5 +1,6 @@
 "use client";
 
+import { asset } from "@/lib/site";
 /*
  * LET'S CONNECT — the closing chapter.
  * Our take: five memory panels on a shallow 3D arc that lean with the
@@ -7,7 +8,7 @@
  * cards use the same circle-fill + roll language as the nav.
  */
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 import { gsap, EASE, prefersReducedMotion } from "@/lib/gsap";
 import Button from "@/components/ui/Button";
 import styles from "./Connect.module.css";
@@ -171,7 +172,7 @@ export default function Connect() {
             <div className={`${styles.panelInner} ${styles.hasPhoto}`}>
               <img
                 className={styles.photo}
-                src={p.src}
+                src={asset(p.src)}
                 alt=""
                 style={{ objectPosition: p.focus }}
                 loading="lazy"
