@@ -12,14 +12,6 @@ export const EASE = {
   settle: "power2.out",
 } as const;
 
-export const DUR = {
-  fast: 0.2,
-  base: 0.4,
-  slow: 0.8,
-  reveal: 1.0,
-} as const;
-
-export const STAGGER = 0.07;
 
 export const prefersReducedMotion = () =>
   typeof window !== "undefined" &&

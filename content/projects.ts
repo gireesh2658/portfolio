@@ -5,7 +5,7 @@
    and his GitHub repos at github.com/gireesh2658. No metrics, stats, or
    claims are fabricated. */
 
-export type Study = {
+type Study = {
   role: string;
   timeline: string;
   context: string;
@@ -17,9 +17,9 @@ export type Study = {
   note?: string;
 };
 
-export type StudyFr = Partial<Study>;
+type StudyFr = Partial<Study>;
 
-export type Cover = {
+type Cover = {
   bg: string;
   ink: "light" | "dark";
   src?: string;

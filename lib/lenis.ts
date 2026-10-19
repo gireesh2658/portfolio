@@ -15,7 +15,7 @@ export const getLenis = () => instance;
  *  the CSS scroll-margin-top path can never disagree. Deliberately NOT measured
  *  from the live header box: the nav hides on scroll-down, so a measurement
  *  taken mid-click would be short and the section would land under it. */
-export function headerOffset() {
+function headerOffset() {
   if (typeof document === "undefined") return 104;
   const raw = getComputedStyle(document.documentElement).getPropertyValue(
     "--nav-offset"

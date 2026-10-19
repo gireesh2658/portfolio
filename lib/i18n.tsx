@@ -19,7 +19,7 @@ export type Lang = "en" | "fr";
 
 type Entry = { en: string; fr: string };
 
-export const DICT: Record<string, Entry> = {
+const DICT: Record<string, Entry> = {
   /* ---------------- nav ---------------- */
   "nav.home": { en: "Home", fr: "Home" },
   "nav.about": { en: "About", fr: "About" },
