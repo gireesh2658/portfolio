@@ -8,10 +8,10 @@ import styles from "./Nav.module.css";
 /* `#home` resolves to the very top of the document (see lib/lenis.ts), so
    Home always returns to the true beginning of the portfolio. */
 const LINKS = [
-  { key: "nav.home", href: "/#home", watch: null },
-  { key: "nav.about", href: "/#about", watch: "about" },
-  { key: "nav.work", href: "/#work", watch: "work" },
-  { key: "nav.contact", href: "/#contact", watch: "contact" },
+  { key: "nav.home", href: "#home", watch: null },
+  { key: "nav.about", href: "#about", watch: "about" },
+  { key: "nav.work", href: "#work", watch: "work" },
+  { key: "nav.contact", href: "#contact", watch: "contact" },
 ];
 
 export default function Nav() {

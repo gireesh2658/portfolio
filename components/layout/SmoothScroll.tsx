@@ -38,8 +38,9 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
       
       /* Only intercept if the hash belongs to the current pathname.
          If it's /#something and we are not on /, let Next.js handle the cross-route transition. */
-      const url = new URL(link.href);
-      if (url.pathname === window.location.pathname && url.hash) {
+      const url = new URL(link.href, window.location.href);
+      const norm = (p: string) => p.replace(/\/+$/, "") || "/";
+      if (norm(url.pathname) === norm(window.location.pathname) && url.hash) {
         e.preventDefault();
         scrollToHash(url.hash);
       }
