@@ -213,7 +213,12 @@ export default function Connect() {
         <a href="#home" className={styles.top}>
           {t("connect.top")}
         </a>
-        <span>© 2026 Pandiri Gireesh</span>
+        <span>
+          © 2026 Pandiri Gireesh{" | "}
+          <a href={asset("/third-party-notices.txt")} target="_blank" rel="noreferrer" style={{ opacity: 0.7, textDecoration: "none" }}>
+            Third-Party Notices
+          </a>
+        </span>
       </footer>
     </section>
   );

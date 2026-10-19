@@ -25,6 +25,7 @@ import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { sceneScrub } from "@/lib/scene";
+import { asset } from "@/lib/site";
 import styles from "./TunnelIntro.module.css";
 import { useLang } from "@/lib/i18n";
 
@@ -129,7 +130,7 @@ export default function TunnelIntro({ text = "GIREESH" }: { text?: string }) {
     const imageMats = IMAGES.map((url) => {
       const mat = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, side: THREE.DoubleSide });
       loader.load(
-        url,
+        asset(url),
         (tex) => {
           if (!alive) {
             tex.dispose();

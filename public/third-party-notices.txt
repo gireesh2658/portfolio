@@ -1,0 +1,156 @@
+﻿Γö£ΓöÇ @img/colour@1.1.0
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/lovell/colour
+Γöé  Γö£ΓöÇ path: @img\colour
+Γöé  ΓööΓöÇ licenseFile: @img\colour\LICENSE.md
+Γö£ΓöÇ @img/sharp-win32-x64@0.35.3
+Γöé  Γö£ΓöÇ licenses: Apache-2.0 AND LGPL-3.0-or-later
+Γöé  Γö£ΓöÇ repository: https://github.com/lovell/sharp
+Γöé  Γö£ΓöÇ publisher: Lovell Fuller
+Γöé  Γö£ΓöÇ email: npm@lovell.info
+Γöé  Γö£ΓöÇ path: @img\sharp-win32-x64
+Γöé  ΓööΓöÇ licenseFile: @img\sharp-win32-x64\LICENSE
+Γö£ΓöÇ @next/env@16.3.0
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/vercel/next.js
+Γöé  Γö£ΓöÇ publisher: Next.js Team
+Γöé  Γö£ΓöÇ email: support@vercel.com
+Γöé  Γö£ΓöÇ path: @next\env
+Γöé  ΓööΓöÇ licenseFile: @next\env\README.md
+Γö£ΓöÇ @next/swc-win32-x64-msvc@16.3.0
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/vercel/next.js
+Γöé  Γö£ΓöÇ path: @next\swc-win32-x64-msvc
+Γöé  ΓööΓöÇ licenseFile: @next\swc-win32-x64-msvc\README.md
+Γö£ΓöÇ @swc/helpers@0.5.15
+Γöé  Γö£ΓöÇ licenses: Apache-2.0
+Γöé  Γö£ΓöÇ repository: https://github.com/swc-project/swc
+Γöé  Γö£ΓöÇ publisher: Ω░òδÅÖ∞£ñ
+Γöé  Γö£ΓöÇ email: kdy1997.dev@gmail.com
+Γöé  Γö£ΓöÇ path: @swc\helpers
+Γöé  ΓööΓöÇ licenseFile: @swc\helpers\LICENSE
+Γö£ΓöÇ baseline-browser-mapping@2.11.12
+Γöé  Γö£ΓöÇ licenses: Apache-2.0
+Γöé  Γö£ΓöÇ repository: https://github.com/web-platform-dx/baseline-browser-mapping
+Γöé  Γö£ΓöÇ path: baseline-browser-mapping
+Γöé  ΓööΓöÇ licenseFile: baseline-browser-mapping\LICENSE.txt
+Γö£ΓöÇ caniuse-lite@1.0.30001809
+Γöé  Γö£ΓöÇ licenses: CC-BY-4.0
+Γöé  Γö£ΓöÇ repository: https://github.com/browserslist/caniuse-lite
+Γöé  Γö£ΓöÇ publisher: Ben Briggs
+Γöé  Γö£ΓöÇ email: beneb.info@gmail.com
+Γöé  Γö£ΓöÇ url: http://beneb.info
+Γöé  Γö£ΓöÇ path: caniuse-lite
+Γöé  ΓööΓöÇ licenseFile: caniuse-lite\LICENSE
+Γö£ΓöÇ client-only@0.0.1
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  ΓööΓöÇ path: client-only
+Γö£ΓöÇ detect-libc@2.1.2
+Γöé  Γö£ΓöÇ licenses: Apache-2.0
+Γöé  Γö£ΓöÇ repository: https://github.com/lovell/detect-libc
+Γöé  Γö£ΓöÇ publisher: Lovell Fuller
+Γöé  Γö£ΓöÇ email: npm@lovell.info
+Γöé  Γö£ΓöÇ path: detect-libc
+Γöé  ΓööΓöÇ licenseFile: detect-libc\LICENSE
+Γö£ΓöÇ gsap@3.15.0
+Γöé  Γö£ΓöÇ licenses: Custom: https://gsap.com/GSAP-share-image.png
+Γöé  Γö£ΓöÇ repository: https://github.com/greensock/GSAP
+Γöé  Γö£ΓöÇ path: gsap
+Γöé  ΓööΓöÇ licenseFile: gsap\README.md
+Γö£ΓöÇ lenis@1.3.26
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/darkroomengineering/lenis
+Γöé  Γö£ΓöÇ publisher: darkroom.engineering
+Γöé  Γö£ΓöÇ path: lenis
+Γöé  ΓööΓöÇ licenseFile: lenis\LICENSE
+Γö£ΓöÇ nanoid@3.3.18
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/ai/nanoid
+Γöé  Γö£ΓöÇ publisher: Andrey Sitnik
+Γöé  Γö£ΓöÇ email: andrey@sitnik.ru
+Γöé  Γö£ΓöÇ path: nanoid
+Γöé  ΓööΓöÇ licenseFile: nanoid\LICENSE
+Γö£ΓöÇ next@16.3.0
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/vercel/next.js
+Γöé  Γö£ΓöÇ path: next
+Γöé  ΓööΓöÇ licenseFile: next\license.md
+Γö£ΓöÇ nodemailer@10.0.0
+Γöé  Γö£ΓöÇ licenses: MIT-0
+Γöé  Γö£ΓöÇ repository: https://github.com/nodemailer/nodemailer
+Γöé  Γö£ΓöÇ publisher: Andris Reinman
+Γöé  Γö£ΓöÇ path: nodemailer
+Γöé  ΓööΓöÇ licenseFile: nodemailer\LICENSE
+Γö£ΓöÇ picocolors@1.1.1
+Γöé  Γö£ΓöÇ licenses: ISC
+Γöé  Γö£ΓöÇ repository: https://github.com/alexeyraspopov/picocolors
+Γöé  Γö£ΓöÇ publisher: Alexey Raspopov
+Γöé  Γö£ΓöÇ path: picocolors
+Γöé  ΓööΓöÇ licenseFile: picocolors\LICENSE
+Γö£ΓöÇ postcss@8.5.23
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/postcss/postcss
+Γöé  Γö£ΓöÇ publisher: Andrey Sitnik
+Γöé  Γö£ΓöÇ email: andrey@sitnik.es
+Γöé  Γö£ΓöÇ path: postcss
+Γöé  ΓööΓöÇ licenseFile: postcss\LICENSE
+Γö£ΓöÇ react-dom@19.2.8
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/react/react
+Γöé  Γö£ΓöÇ path: react-dom
+Γöé  ΓööΓöÇ licenseFile: react-dom\LICENSE
+Γö£ΓöÇ react@19.2.8
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/react/react
+Γöé  Γö£ΓöÇ path: react
+Γöé  ΓööΓöÇ licenseFile: react\LICENSE
+Γö£ΓöÇ scheduler@0.27.0
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/facebook/react
+Γöé  Γö£ΓöÇ path: scheduler
+Γöé  ΓööΓöÇ licenseFile: scheduler\LICENSE
+Γö£ΓöÇ semver@7.8.5
+Γöé  Γö£ΓöÇ licenses: ISC
+Γöé  Γö£ΓöÇ repository: https://github.com/npm/node-semver
+Γöé  Γö£ΓöÇ publisher: GitHub Inc.
+Γöé  Γö£ΓöÇ path: sharp\node_modules\semver
+Γöé  ΓööΓöÇ licenseFile: sharp\node_modules\semver\LICENSE
+Γö£ΓöÇ sharp@0.35.3
+Γöé  Γö£ΓöÇ licenses: Apache-2.0
+Γöé  Γö£ΓöÇ repository: https://github.com/lovell/sharp
+Γöé  Γö£ΓöÇ publisher: Lovell Fuller
+Γöé  Γö£ΓöÇ email: npm@lovell.info
+Γöé  Γö£ΓöÇ path: sharp
+Γöé  ΓööΓöÇ licenseFile: sharp\LICENSE
+Γö£ΓöÇ source-map-js@1.2.1
+Γöé  Γö£ΓöÇ licenses: BSD-3-Clause
+Γöé  Γö£ΓöÇ repository: https://github.com/7rulnik/source-map-js
+Γöé  Γö£ΓöÇ publisher: Valentin 7rulnik Semirulnik
+Γöé  Γö£ΓöÇ email: v7rulnik@gmail.com
+Γöé  Γö£ΓöÇ path: source-map-js
+Γöé  ΓööΓöÇ licenseFile: source-map-js\LICENSE
+Γö£ΓöÇ styled-jsx@5.1.6
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/vercel/styled-jsx
+Γöé  Γö£ΓöÇ path: styled-jsx
+Γöé  ΓööΓöÇ licenseFile: styled-jsx\license.md
+Γö£ΓöÇ three@0.185.1
+Γöé  Γö£ΓöÇ licenses: MIT
+Γöé  Γö£ΓöÇ repository: https://github.com/mrdoob/three.js
+Γöé  Γö£ΓöÇ publisher: mrdoob
+Γöé  Γö£ΓöÇ path: three
+Γöé  ΓööΓöÇ licenseFile: three\LICENSE
+Γö£ΓöÇ tslib@2.8.1
+Γöé  Γö£ΓöÇ licenses: 0BSD
+Γöé  Γö£ΓöÇ repository: https://github.com/Microsoft/tslib
+Γöé  Γö£ΓöÇ publisher: Microsoft Corp.
+Γöé  Γö£ΓöÇ path: tslib
+Γöé  ΓööΓöÇ licenseFile: tslib\LICENSE.txt
+ΓööΓöÇ zod@4.5.4
+   Γö£ΓöÇ licenses: MIT
+   Γö£ΓöÇ repository: https://github.com/colinhacks/zod
+   Γö£ΓöÇ publisher: Colin McDonnell
+   Γö£ΓöÇ email: zod@colinhacks.com
+   Γö£ΓöÇ path: zod
+   ΓööΓöÇ licenseFile: zod\LICENSE
+

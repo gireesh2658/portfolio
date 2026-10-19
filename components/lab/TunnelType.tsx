@@ -23,6 +23,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
+import { asset } from "@/lib/site";
 import styles from "./TunnelType.module.css";
 
 /* ---------- tunnel constants (from the supplied implementation) ---------- */
@@ -119,7 +120,7 @@ export default function TunnelType({ text = "GIREESH" }: Props) {
         side: THREE.DoubleSide,
       });
       loader.load(
-        url,
+        asset(url),
         (tex) => {
           if (!alive) {
             tex.dispose();
